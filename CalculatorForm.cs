@@ -122,6 +122,9 @@ namespace WindowsFormsApp1
         private void getResult_Click(object sender, EventArgs e)
         {
             Result.Text = calculate();
+            firstNumber.Text = "";
+            secondNumber.Text = "";
+            MathOperator.Text = "";
         }
 
         private void minus_Click(object sender, EventArgs e)
